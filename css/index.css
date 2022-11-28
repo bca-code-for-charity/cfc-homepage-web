@@ -1,1 +1,24 @@
 /* TODO implement thr styling here */
+
+body {
+    
+}
+a {
+
+}
+
+.buttons {
+
+}
+
+#something {
+    text-align: center;
+    color: red;
+}
+
+.special-buttons {
+    font-size: large;
+    width: 100%;
+    color: aqua;
+    background-color: blueviolet;
+}
