@@ -3,18 +3,25 @@
     <head>
         <meta charset="UTF-8" />
         <title>CodeForCharity</title>
-        <!-- css for this page, feel free to add more css files if necessary -->
         <link rel="stylesheet" href="./css/index.css" />
-        <!-- fixes issues with some css features like media queries not working properly -->
+        <link rel="stylesheet" href="./main.css" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </head>
     <body>
-        <div>CodeForCharity - Homepage</div>
-        <div>links to other parts of the website (remove this at some point)</div>
-        <a href="./archive/">Our Project Archive</a>
-        <a href="./active-projects/">Our Active Projects</a>
-        <!-- feel free  to change up this text, this is just here as a general reference as to what info should be 
-            on our homepage-->
+        <!-- page header -->
+        <div id="header">
+            <div id="cfc-text">CodeForCharity</div>
+            <div id="links">
+                <div>
+                    <a href="">Home</a>
+                    <a href="./our-process/">Our Process</a>
+                    <a href="./archive/">Project Archive</a>
+                    <a href="./active-projects/">Active Projects</a>
+                    <a href="./contact-us/">Contact Us</a>
+                </div>
+            </div>
+        </div>
+
         <div>
             Welcome to CodeForCharity! We are a community of high school coders, thinkers, artists, and engineers based
             in Bergen County, New Jersey. Together, our mission is to help out charities and all sorts of nonprofit
@@ -24,5 +31,6 @@
             active projects page to take a look at the projects we are currently working on or planning to start working
             on in the near future. All of our project code is open source.
         </div>
+        <script src="./main.js"></script>
     </body>
 </html>
