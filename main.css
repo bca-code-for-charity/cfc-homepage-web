@@ -11,6 +11,7 @@ Playfair Display (serif), use font-family: 'Playfair Display', serif;*/
 body {
     margin: 0;
     padding: 0;
+    font-family: "Lato", sans-serif;
 }
 
 #header {
@@ -22,29 +23,57 @@ body {
     color: #1e3c5a;
 }
 
-#links {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
+@media screen and (min-width: 757px) {
+    #links {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+    }
+
+    #wide {
+        display: grid;
+        grid-template-columns: 55px 100px 122px 118px 90px;
+    }
+
+    .link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: #1e3c5a;
+    }
+
+    .link:hover {
+        background-color: #bebebe;
+    }
 }
 
-#links div {
-    display: grid;
-    grid-template-columns: 55px 100px 122px 118px 90px;
-}
+@media screen and (max-width: 756px) {
+    #links {
+        width: 100%;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
 
-#links div a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    color: #1e3c5a;
-    
-}
+    #narrow {
+        width: 45px;
+        height: 45px;
+        cursor: pointer;
+    }
 
-#links div a:hover {
-    background-color: #bebebe;
+    #links-narrow {
+        font-size: 20px;
+        text-align: center;
+        display: grid;
+        grid-template-rows: repeat(5, 30px);
+    }
+
+    .link {
+        text-decoration: none;
+        color: #1e3c5a;
+    }
 }
 
 #cfc-text {
