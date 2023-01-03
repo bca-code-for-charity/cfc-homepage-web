@@ -3,25 +3,30 @@
     <head>
         <meta charset="UTF-8" />
         <title>CodeForCharity - Active Projects</title>
-        <!-- css for this page, feel free to add more css files if necessary -->
         <link rel="stylesheet" href="../css/active-projects.css" />
-        <!-- fixes issues with some css features like media queries not working properly -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="../main.css" />
     </head>
     <body>
-        <!-- page header -->
         <div id="header">
             <div id="cfc-text">CodeForCharity</div>
             <div id="links">
-                <div>
-                    <a href="../">Home</a>
-                    <a href="../our-process/">Our Process</a>
-                    <a href="../archive/">Project Archive</a>
-                    <a href="">Active Projects</a>
-                    <a href="../contact-us/">Contact Us</a>
+                <div id="wide" style="display: none">
+                    <a class="link" href="../">Home</a>
+                    <a class="link" href="../our-process/">Our Process</a>
+                    <a class="link" href="../archive/">Project Archive</a>
+                    <a class="link" href="">Active Projects</a>
+                    <a class="link" href="../contact-us/">Contact Us</a>
                 </div>
+                <img id="narrow" src="../images/hamburger-menu.svg" style="display: none" />
             </div>
+        </div>
+        <div id="links-narrow" style="display: none;">
+            <a class="link" href="../">Home</a>
+            <a class="link" href="../our-process/">Our Process</a>
+            <a class="link" href="../archive/">Project Archive</a>
+            <a class="link" href="">Active Projects</a>
+            <a class="link" href="../contact-us/">Contact Us</a>
         </div>
         <div>CodeForCharity - Active Projects</div>
         <a href="../">Return Home</a>
