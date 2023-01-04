@@ -80,4 +80,6 @@ body {
 #cfc-text {
     padding: 10px;
     font-size: 35px;
+    color: #1e3c5a;
+    text-decoration: none;
 }
