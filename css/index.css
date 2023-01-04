@@ -1,5 +1,5 @@
-/* TODO implement the styling here */
-
-body {
-    background-color: beige;
+#main-text {
+    padding: 10px;
+    font-size: 20px;
+    text-align: left;
 }
