@@ -3,3 +3,13 @@
     font-size: 20px;
     text-align: left;
 }
+
+h1,
+h2 {
+    text-align: center;
+}
+
+.a {
+    font-size: 22px;
+    text-align: center;
+}
