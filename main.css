@@ -1,0 +1,85 @@
+/*
+These styles should be applied to every page on the website
+*/
+
+/*
+Fonts:
+Lato font (sans serif), use font-family: 'Lato', sans-serif;
+Playfair Display (serif), use font-family: 'Playfair Display', serif;*/
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+    background-color: #f5f5dc;
+}
+
+#header {
+    width: 100%;
+    background-color: #c89664;
+    font-family: "Playfair Display", serif;
+    display: flex;
+    justify-content: stretch;
+    color: #1e3c5a;
+}
+
+@media screen and (min-width: 757px) {
+    #links {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+    }
+
+    #wide {
+        display: grid;
+        grid-template-columns: 55px 100px 122px 118px 90px;
+    }
+
+    .link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: #1e3c5a;
+    }
+
+    .link:hover {
+        background-color: #bebebe;
+    }
+}
+
+@media screen and (max-width: 756px) {
+    #links {
+        width: 100%;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+
+    #narrow {
+        width: 45px;
+        height: 45px;
+        cursor: pointer;
+    }
+
+    #links-narrow {
+        font-size: 20px;
+        text-align: center;
+        display: grid;
+        grid-template-rows: repeat(5, 30px);
+    }
+
+    .link {
+        text-decoration: none;
+        color: #1e3c5a;
+    }
+}
+
+#cfc-text {
+    padding: 10px;
+    font-size: 35px;
+    color: #1e3c5a;
+    text-decoration: none;
+}
