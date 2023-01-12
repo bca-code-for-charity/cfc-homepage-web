@@ -9,7 +9,26 @@ h2 {
     text-align: center;
 }
 
-.a {
+#welcome {
+    text-align: center;
+    
+    padding: 5px;
+}
+
+
+#cfc-image {
+    width: 400px;
+    height: 300px;
+    justify-content: center;
+}
+
+#image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.names {
     font-size: 22px;
     text-align: center;
 }
