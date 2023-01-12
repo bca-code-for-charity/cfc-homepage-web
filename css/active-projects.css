@@ -1,0 +1,44 @@
+/*
+make sure to get all the different project names paired up with each alss properly
+then make sure to space things properly and have different boldness levels for each
+paragraph
+
+
+current ids:
+
+project desc 
+project title
+project link
+page title (centered)
+page desc (left)
+*/
+
+#page-title {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #000000;
+}
+
+#page-desc {
+    padding: 10px;
+    font-size: 35;
+    text-align: center;
+}
+
+h1 { /* Active Projects */
+    font-size: 35px;
+    font-weight: 150;
+}
+
+#project {
+    padding: 10px;
+    
+}
+
+h3 { /* Project desc */
+    font-size: 15px;
+    font-weight: 100;
+
+}

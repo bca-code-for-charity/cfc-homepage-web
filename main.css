@@ -9,15 +9,16 @@ Playfair Display (serif), use font-family: 'Playfair Display', serif;*/
 @import url("https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display&display=swap");
 
 body {
-    margin: 0;
-    padding: 0;
+    padding: 0%;
+    margin: 0%;
     font-family: "Lato", sans-serif;
-    background-color: #f5f5dc;
+    background-color: lightgray;
+    color:#1e3c5a;
 }
 
 #header {
     width: 100%;
-    background-color: #c89664;
+    background-color: lightblue;
     font-family: "Playfair Display", serif;
     display: flex;
     justify-content: stretch;
