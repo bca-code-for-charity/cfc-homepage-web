@@ -23,7 +23,8 @@ page desc (left)
 
 #page-desc {
     padding: 10px;
-    font-size: 35;
+    font-size: 21px;
+    font-weight: 140;
     text-align: center;
 }
 
