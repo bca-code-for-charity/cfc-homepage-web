@@ -1,4 +1,7 @@
-/*This JS will run on every single page of the website*/ const wideRoot = document.getElementById("wide");
+/*
+This JS will run on every single page of the website
+*/
+const wideRoot = document.getElementById("wide");
 const narrowRoot = document.getElementById("narrow");
 function resize() {
     if (window.outerWidth <= 756) {

@@ -1,21 +1,3 @@
-#main-text {
-    padding: 30px;
-    font-size: 20px;
-    text-align: justify;
-}
-
-h1,
-h2 {
-    text-align: center;
-}
-
-#welcome {
-    text-align: center;
-    
-    padding: 5px;
-}
-
-
 #cfc-image {
     width: 400px;
     height: 300px;

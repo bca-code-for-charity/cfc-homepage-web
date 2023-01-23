@@ -1,11 +1,10 @@
 /*
 These styles should be applied to every page on the website
-*/
 
-/*
 Fonts:
 Lato font (sans serif), use font-family: 'Lato', sans-serif;
-Playfair Display (serif), use font-family: 'Playfair Display', serif;*/
+Playfair Display (serif), use font-family: 'Playfair Display', serif;
+*/
 @import url("https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display&display=swap");
 
 body {
@@ -13,7 +12,7 @@ body {
     margin: 0%;
     font-family: "Lato", sans-serif;
     background-color: lightgray;
-    color:#1e3c5a;
+    color: #1e3c5a;
 }
 
 #header {
@@ -23,6 +22,29 @@ body {
     display: flex;
     justify-content: stretch;
     color: #1e3c5a;
+}
+
+#main-text {
+    font-size: 20px;
+    text-align: justify;
+}
+
+#main-text div {
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+#main-text h2 {
+    font-family: "Playfair Display", serif;
+    margin: 0;
+    border: 0;
+    padding: 15px;
+}
+
+h1,
+h2 {
+    text-align: center;
 }
 
 @media screen and (min-width: 757px) {
