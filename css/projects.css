@@ -15,7 +15,11 @@ h1 {
 }
 
 .project {
-    padding: 10px;
+    border-radius: 25px;
+    width: 85%;
+    margin: 1vw auto;
+    padding: 1vw;
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 .project h3 {
@@ -26,4 +30,8 @@ h1 {
     padding-left: 0;
     margin: 0;
     border: 0;
+}
+
+.project a, .project a:visited {
+    color: #0441e9;
 }
