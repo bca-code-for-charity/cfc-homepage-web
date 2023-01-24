@@ -7,25 +7,65 @@ Playfair Display (serif), use font-family: 'Playfair Display', serif;
 */
 @import url("https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display&display=swap");
 
+:root {
+    --bg-grad-1: #505056;
+    --bg-grad-2: #303538;
+    --main-text-color: #ecf0f5;
+    --main-link-color: #007acc;
+}
+
 body {
     padding: 0%;
     margin: 0%;
     font-family: "Lato", sans-serif;
-    background-color: lightgray;
-    color: #1e3c5a;
+    background-color: #3e3e42;
+    background-image: linear-gradient(180deg, var(--bg-grad-1), var(--bg-grad-2));
+    background-size: cover;
+    background-attachment: fixed;
+    color: var(--main-text-color);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+a, a:visited {
+    color: var(--main-link-color);
+}
+
+a h3, a:visited h3 {
+    text-decoration: none;
+    color: var(--main-text-color);
+}
+
+.project {
+    border-radius: 25px;
+    width: 85%;
+    margin: 1vw auto;
+    padding: 1vw;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.project a, .project a:visited {
+    color: #0441e9;
 }
 
 #header {
     width: 100%;
-    background-color: lightblue;
+    background-color: var(--main-link-color);
     font-family: "Playfair Display", serif;
     display: flex;
     justify-content: stretch;
-    color: #1e3c5a;
+    color: var(--main-text-color);
+}
+
+#header * a, #header * a:visited {
+    color: var(--main-text-color);
 }
 
 #main-text {
-    font-size: 20px;
+    font-size: 1.25em;
+    margin: 0 10%;
     text-align: justify;
 }
 
@@ -42,12 +82,30 @@ body {
     padding: 15px;
 }
 
-h1,
-h2 {
-    text-align: center;
+#cfc-image {
+    border-radius: 25px;
+}
+
+#cfc-text {
+    color: var(--main-text-color);
+    padding: 10px;
+    font-size: 35px;
+    text-decoration: none;
 }
 
 @media screen and (min-width: 757px) {
+    .link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: #1e3c5a;
+    }
+
+    .link:hover {
+        background-color: #bebebe;
+    }
+
     #links {
         width: 100%;
         display: flex;
@@ -60,20 +118,17 @@ h2 {
         grid-template-columns: 55px 100px 122px 118px 90px;
     }
 
-    .link {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-decoration: none;
-        color: #1e3c5a;
-    }
-
-    .link:hover {
-        background-color: #bebebe;
+    #links-narrow {
+        display: none;
     }
 }
 
 @media screen and (max-width: 756px) {
+    .link {
+        text-decoration: none;
+        color: #1e3c5a;
+    }
+
     #links {
         width: 100%;
         display: flex;
@@ -91,18 +146,7 @@ h2 {
         font-size: 20px;
         text-align: center;
         display: grid;
+        background-color: rgba(255, 255, 255, 0.1);
         grid-template-rows: repeat(5, 30px);
     }
-
-    .link {
-        text-decoration: none;
-        color: #1e3c5a;
-    }
-}
-
-#cfc-text {
-    padding: 10px;
-    font-size: 35px;
-    color: #1e3c5a;
-    text-decoration: none;
 }
